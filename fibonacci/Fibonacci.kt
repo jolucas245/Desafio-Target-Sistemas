@@ -1,5 +1,5 @@
 fun main() {
-    var n = 21 // Coloque nesta linha o valor que deseja verificar se está na sequência de Fibonacci
+    var n = 22 // Coloque nesta linha o valor que deseja verificar se está na sequência de Fibonacci
     var mensagem = when {
         estaEmFibonacci(n) -> "O número $n ESTÁ na sequência de Fibonacci"
         else -> {
