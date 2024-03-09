@@ -50,16 +50,18 @@ f) 2,10, 12, 16, 17, 18, 19, <strong><code>20</code></strong>
 
 Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
 
-<strong><code>Passo 1.</code></strong> Ligar o primeiro interruptor e deixar ligado durante 20 minutos.
-<strong><code>Passo 2.</code></strong>Após isso, desligar o primeiro interruptor e ligar o segundo interruptor.
+<strong><code>Passo 1.</code></strong> Ligar o primeiro interruptor e deixar ligado durante 20 minutos.<br>
+<strong><code>Passo 2.</code></strong>Após isso, desligar o primeiro interruptor e ligar o segundo interruptor.<br>
 <strong><code>Passo 3.</code></strong> Correr até uma das 3 salas e verificar os casos:
 - Se a lâmpada estiver apagada, mas quente, será o primeiro interruptor
 - Se a lâmpada estiver acesa, será o segundo interruptor
-- Se a lâmpada estiver apagada, mas fria, será o terceiro interruptor
-<strong><code>Passo 4.</code></strong> Após encontrar qual interruptor acende a lâmpada da sala visitada, voltamos nos interruptores e ligamos um dos dois interruptores que sobraram.
+- Se a lâmpada estiver apagada, mas fria, será o terceiro interruptor<br>
+
+<strong><code>Passo 4.</code></strong> Após encontrar qual interruptor acende a lâmpada da sala visitada, voltamos nos interruptores e ligamos um dos dois interruptores que sobraram.<br>
 <strong><code>Passo 5.</code></strong> Vamos a uma das duas salas restantes e verificamos:
 - Se a lâmpada estiver ligada, é o último interruptor que ligamos
-- Se a lâmpada estiver apagada, é o interruptor que não ligamos
+- Se a lâmpada estiver apagada, é o interruptor que não ligamos<br>
+
 <strong><code>Passo 6.</code></strong> Pela lógica, é o interruptor que restou
 
 ## Desafio 5
@@ -70,3 +72,5 @@ IMPORTANTE:
 a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;
 
 b) Evite usar funções prontas, como, por exemplo, reverse;
+### Implementação feita em Dart <img align="center" alt="Joao-Dart" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg">
+[Clique aqui para acessar a solução](https://github.com/jolucas245/Desafio-Target-Sistemas/blob/main/stringReversa/revert.dart)
